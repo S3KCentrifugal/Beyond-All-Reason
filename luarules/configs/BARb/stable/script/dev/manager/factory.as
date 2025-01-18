@@ -41,15 +41,15 @@ namespace Factory {
 	string corap   ("corap");
 	string coraap  ("coraap");
 	string corgant ("corgant");
-	string leglab  ("leglab");
-	string legalab ("legalab");
-	string legvp   ("legvp");
-	string legavp  ("legavp");
-	string legsy   ("legjim");
-	string legasy  ("legasy");
-	string legap   ("legap");
-	string legaap  ("legaap");
-	string leggant ("leggant");
+	// string leglab  ("leglab");
+	// string legalab ("legalab");
+	// string legvp   ("legvp");
+	// string legavp  ("legavp");
+	// string legsy   ("legjim");
+	// string legasy  ("legasy");
+	// string legap   ("legap");
+	// string legaap  ("legaap");
+	// string leggant ("leggant");
 
 	float switchLimit = MakeSwitchLimit();
 
@@ -68,6 +68,7 @@ namespace Factory {
 
 	void AiUnitAdded(CCircuitUnit@ unit, Unit::UseAs usage)
 	{
+		
 		if (usage != Unit::UseAs::FACTORY)
 			return;
 

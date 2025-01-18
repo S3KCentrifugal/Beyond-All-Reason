@@ -38,28 +38,6 @@ namespace Unit {
 		TypeMask AHA      = AiAddRole("anti_heavy_ass",  SUPPORT.type);
 		TypeMask BUILDER2 = AiAddRole("builderT2",       BUILDER.type);
 
-		// SMRT CUSTOM ROLES
-		TypeMask ANTI_NUKE = AiAddRole("anti_nuke",       STATIC.type);
-		TypeMask JAMMER = AiAddRole("jammer",       STATIC.type);
-		TypeMask RADAR = AiAddRole("radar",       STATIC.type);
-		TypeMask EMP = AiAddRole("emp",       SUPER.type);
-		TypeMask JUNO = AiAddRole("juno",       STATIC.type);
-
-		TypeMask SPAM = AiAddRole("spam",       ASSAULT.type);
-		TypeMask ANTI_SPAM = AiAddRole("anti_spam",       ASSAULT.type);
-
-		TypeMask ANTI_AIR_1 = AiAddRole("anti_air_1",       ASSAULT.type);
-		TypeMask ANTI_AIR_2 = AiAddRole("anti_air_2",       ASSAULT.type);
-		TypeMask ANTI_AIR_3 = AiAddRole("anti_air_3",       ASSAULT.type);
-		TypeMask ANTI_AIR_4 = AiAddRole("anti_air_4",       ASSAULT.type);
-		TypeMask ARTY_1 = AiAddRole("arty_1",       ASSAULT.type);
-		TypeMask ARTY_2 = AiAddRole("arty_2",       ASSAULT.type);
-		TypeMask ARTY_3 = AiAddRole("arty_3",       ASSAULT.type);
-		TypeMask ARTY_4 = AiAddRole("arty_4",       ASSAULT.type);
-		TypeMask NAVAL = AiAddRole("naval",       ASSAULT.type);
-		TypeMask LAND_RANGE_T2 = AiAddRole("land_range_t2",       ASSAULT.type);
-		TypeMask ANTI_NAVAL = AiAddRole("anti_naval",       ASSAULT.type);
-
 	}  // namespace Role
 
 	namespace Attr {
