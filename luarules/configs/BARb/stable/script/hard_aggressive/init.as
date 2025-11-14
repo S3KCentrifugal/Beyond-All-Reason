@@ -1,5 +1,5 @@
-#include "../common.as"
-#include "../unit.as"
+#include "../src/common.as"
+#include "../src/unit.as"
 
 
 namespace Init {
